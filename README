@@ -1,0 +1,8 @@
+=== TextMate Bundle: Go To Ruby Method ===
+
+A Textmate bundle (plugin) thats go to ruby method definition, by selection of method calL.
+This plugin executes a recursive grep inside current project root folder and puts the output as tooltip text, showing file location and line number for each ocurrency.
+
+=== Use ===
+
+Select the method name and press 'Control+.'
