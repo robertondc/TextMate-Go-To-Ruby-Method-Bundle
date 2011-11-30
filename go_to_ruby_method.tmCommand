@@ -7,7 +7,8 @@
 	<key>bundleUUID</key>
 	<string>1191ADC1-6AA0-4F04-9A35-30DA9339FC5C</string>
 	<key>command</key>
-	<string>grep -Rn "def\ *$TM_SELECTED_TEXT" "$TM_DIRECTORY" | while read line_result; do echo "$line_result" ; done
+	<string>grep -Rn "def[\ \t]*[self\.]*[\ \t]*$TM_SELECTED_TEXT" "$TM_DIRECTORY" | while read line_result; do echo "$line_result" ; done
+
 
 grep -Rn "attr_accessor\ *:$TM_SELECTED_TEXT" "$TM_DIRECTORY" | while read line_result; do echo "$line_result" ; done</string>
 	<key>fallbackInput</key>
